@@ -1,0 +1,22 @@
+{
+    "name": "solwin/bestsellers",
+    "description": "Best Seller Products extension shows best selling product for your Magento 2 store through slider. It displays product images on the left/right sidebar or dynamically in slide show with auto scrolling.",
+    "type": "magento2-module",
+    "version": "2.0.5",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\BestSellers\\": ""
+        }
+    }
+}
